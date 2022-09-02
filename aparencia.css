@@ -1,0 +1,79 @@
+body{
+
+background:darkgreen;
+}
+
+#topo{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(12, 20, 26), rgb(2, 4, 5), rgb(0, 128, 100), darkgreen 98%);
+}
+#bio{
+    color:#2a056e;
+    background-color: rgb(29, 178, 216);
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin:30px;
+    padding:25px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    padding:30px;
+    margin: 40px;
+}
+.linha{
+    background: rgb(0, 217, 255);
+    width:100%;
+    height:10px;
+}
+.menu{
+    position: fixed;
+   display:flex;
+   justify-content:center;
+    list-style:none;
+   width:100%;
+cursor:pointer;
+background:black;
+}
+.link{
+    float:left;
+    padding-left: 35px;
+    font-size:30px;
+font-family:fantasy;
+color:white;
+}
+#warden{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#videos, #curiosidades, #info, #contato{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link a:hover{
+text-decoration: none;
+color: cyan;
+font-size:45;
+transition: 2s;
+}
+.contato2{
+
+    display: flex;
+    justify-content: center;
+}
+.contato2 a{
+
+    color:red;
+}
